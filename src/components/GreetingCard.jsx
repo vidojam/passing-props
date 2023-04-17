@@ -1,5 +1,5 @@
-export default function GreetingCard(firstName, age) {
-  // const {firstName} = props
+export default function GreetingCard(props) {
+  const {firstName, age} = props
   return (
     <div className="GreetingCard">
       <h3>Hello {firstName}({age})!</h3>
